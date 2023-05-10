@@ -10,7 +10,6 @@
 /data           ext4   /dev/block/bootdevice/by-name/userdata                    flags=length=-16384;fileencryption=aes-256-xts
 /firmware       vfat   /dev/block/bootdevice/by-name/modem                       flags=display="Firmware";mounttodecrypt
 /persist        ext4   /dev/block/bootdevice/by-name/persist                     flags=display="Persist"
-/vendor           ext4   /dev/block/bootdevice/by-name/vendor                        flags=display="Cust"
 /misc           emmc   /dev/block/bootdevice/by-name/misc
 /modem          emmc   /dev/block/bootdevice/by-name/modem                       flags=backup=1;display="Modem"
 /dsp            emmc   /dev/block/bootdevice/by-name/dsp                         flags=backup=1;subpartitionof=/modem
